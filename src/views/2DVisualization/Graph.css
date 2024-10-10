@@ -1,0 +1,21 @@
+
+.node {
+    fill: transparent;
+    stroke-width: 3;
+}
+
+.edge {
+    stroke-width: 3;
+}
+
+.nodeLabel {
+    text-anchor: middle;
+}
+
+.edgeLabel {
+    text-anchor: middle
+}
+
+.weightBackground {
+    fill: white;
+}

@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  web:
+    container_name: front_dev
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - type: bind
+        source: ./
+        target: /project
+    tty: true
+    stdin_open: true
